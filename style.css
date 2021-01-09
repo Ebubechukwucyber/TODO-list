@@ -1,0 +1,89 @@
+body{
+    font-family: helvetica;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+/*The header section*/
+header{
+    width:100%;
+    Background-color:#D2386C;
+    padding:15px;
+}
+.header-Title{
+    color:rgb(240 255 240);
+    font-size:30px;
+    margin-left:30px;
+}
+/* filter box */
+.filter{
+    float:right;
+    margin-top:-32px;
+    margin-right: 100px;
+    border: 2px solid rgb(204 0 204);
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    color:rgb(128 128 128);
+}
+/*The main body part*/
+.main-box{
+    margin: 50px auto;
+    padding:15px;
+    width:30%;
+    height:auto;
+    }
+.Form-Title{
+    Font-size:25px;
+    color:rgb(76 0 153);
+}
+.text-box{
+    border: 2px solid rgb(204 0 204);
+    width: 50%;
+    height: 25px;
+    border-radius: 4px;
+    color:rgb(128 128 128);
+}
+.submit-button{
+    width: 70px;
+    height: 35px;
+    border: 2px solid #D2386C;
+    border-radius: 4px;
+    background-color: #D2386C;
+    color:rgb(240 255 240);
+}
+.submit-button:hover{
+background-color: rgb(102 0 51);
+border-color:rgb(102 0 51);
+}
+.text-box:focus, .submit-button:focus{
+    border-color:rgb(30 144 255);
+}
+/*The added items section*/
+.Item-Title{
+    margin-top:25px;
+    Font-size:25px;
+    color:rgb(76 0 153);
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+    border-radius:4px;
+    color:rgb(76 0 153);
+    padding:8px 16px;
+    border:2px solid rgb(204 0 204);
+}
+button{
+    float:right;
+    background-color:#D2386C;
+    border-color:#D2386C;
+    border-radius: 4px;
+    color:rgb(255 255 255);
+}
+button:hover{
+    background-color:rgb(102 0 51);
+    border-color:rgb(102 0 51);
+}

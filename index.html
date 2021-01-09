@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Todo list</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--The header section-->
+<header>
+    <div class = "header-Title">To-do List</div>
+    <!-- filter box -->
+    <input type ="text" class = "filter" id ="filter" placeholder = "filter list of items">
+</header>
+<!--The main body part-->
+<div class = "main-box">
+    <div class ="Form-Title">ADD ITEMS</div>
+    <form id="form">
+        <input type ="text" class = "text-box" id ="input" required>
+        <input type = "submit" class = "submit-button" value = "Add">
+    </form>
+    <!--The added items section-->
+<div class ="Item-Title">ITEMS</div>
+<ul id ="item">
+</ul>
+</div>
+<script src="script.js"></script>
+    </body>
+
+</html>
